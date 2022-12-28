@@ -1,0 +1,6 @@
+D:\Repos\PartnerPortal\Angular\obj\Debug\PartnerPortal.UI.esproj.SuggestedBindingRedirects.cache
+D:\Repos\PartnerPortal\Angular\obj\Debug\PartnerPortal.UI.esproj.CoreCompileInputs.cache
+C:\Users\sagar.m\Documents\Partener portel project\partnerportal\Angular\obj\Debug\PartnerPortal.UI.esproj.SuggestedBindingRedirects.cache
+C:\Users\sagar.m\Documents\Partener portel project\partnerportal\Angular\obj\Debug\PartnerPortal.UI.esproj.CoreCompileInputs.cache
+C:\Users\gaurav.a\Downloads\partner portal (1)\partnerportal\Angular\obj\Debug\PartnerPortal.UI.esproj.SuggestedBindingRedirects.cache
+C:\Users\gaurav.a\Downloads\partner portal (1)\partnerportal\Angular\obj\Debug\PartnerPortal.UI.esproj.CoreCompileInputs.cache

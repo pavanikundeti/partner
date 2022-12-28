@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Common - Copy\**" />
+    <Compile Remove="Files - Copy\**" />
+    <Compile Remove="Identity - Copy\**" />
+    <Compile Remove="Persistence - Copy\**" />
+    <Compile Remove="Services - Copy\**" />
+    <EmbeddedResource Remove="Common - Copy\**" />
+    <EmbeddedResource Remove="Files - Copy\**" />
+    <EmbeddedResource Remove="Identity - Copy\**" />
+    <EmbeddedResource Remove="Persistence - Copy\**" />
+    <EmbeddedResource Remove="Services - Copy\**" />
+    <None Remove="Common - Copy\**" />
+    <None Remove="Files - Copy\**" />
+    <None Remove="Identity - Copy\**" />
+    <None Remove="Persistence - Copy\**" />
+    <None Remove="Services - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PartnerPortal.Application\PartnerPortal.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="CsvHelper" Version="15.0.10" />
+	  <PackageReference Include="MailKit" Version="3.4.3" />
+	  <PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="7.0.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
+	  <PackageReference Include="MimeKit" Version="3.4.3" />
+  </ItemGroup>
+
+</Project>
